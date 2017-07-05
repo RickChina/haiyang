@@ -1,0 +1,1456 @@
+2017-06-12 13:54:34 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 16:53:36 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 16:53:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 16:54:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 16:54:24 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:02:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:02:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:15:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:15:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:28:18 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:36:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-12 17:36:24 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:48:34 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:48:40 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:51:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:51:23 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:54:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 08:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 08:55:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:02:40 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:02:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:03:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 09:03:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:03:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:06:32 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:06:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:07:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 09:07:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:07:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:13:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:13:07 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:13:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 09:14:07 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:14:13 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:18:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:18:25 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:18:49 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 09:19:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:19:30 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 09:23:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hgjj/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 10:20:39 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 10:20:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 10:21:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 10:21:59 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 10:22:04 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 10:25:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hgjj/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 11:16:14 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 11:16:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 11:28:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html> (referer: http://www.ndrc.gov.cn/fzgggz/fzgh/zhdt/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 62, in parse_page
+    raw_content = response.xpath('//div[@class="TRS_Editor"]|//div[@class="txt1"]').extract()[0]
+IndexError: list index out of range
+2017-06-13 11:30:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/gjjh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 11:30:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/fzgh/ghwb/ztgngh/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 11:42:20 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hgjj/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 13:16:43 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/jjyx/dzxqcgl/index_8.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 13:57:27 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hgjj/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:04:14 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gdzctz/tzgz/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:04:16 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gdzctz/tzgz/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:04:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gdzctz/tzgz/index_6.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:04:36 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gdzctz/tzgz/index_10.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:17:22 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gdzctz/tzfg/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 14:30:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/wzly/zhdt/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 16:11:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/dqjj/zhdt/index_4.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 16:24:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/dqjj/zhdt/index_16.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 16:25:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/dqjj/zhdt/index_24.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 17:40:30 [scrapy.core.scraper] ERROR: Spider error processing <GET http://xbkfs.ndrc.gov.cn/gzdt/index_12.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 17:40:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://xbkfs.ndrc.gov.cn/gzdt/index_17.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 18:21:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://dbzxs.ndrc.gov.cn/xglj/index_12.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 18:35:19 [scrapy.core.scraper] ERROR: Spider error processing <GET http://dbzxs.ndrc.gov.cn/gzdt/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 18:35:34 [scrapy.core.scraper] ERROR: Spider error processing <GET http://dbzxs.ndrc.gov.cn/gzdt/index_6.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 20:18:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/gyfz/gyfz/index_4.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 35, in parse
+    item["uptime"] = uptime_list[i]
+IndexError: list index out of range
+2017-06-13 20:48:50 [scrapy.core.scraper] ERROR: Spider error processing <GET http://gjss.ndrc.gov.cn/gjsgz/index_6.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 20:48:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://gjss.ndrc.gov.cn/gjsgz/index_7.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 21:48:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hjbh/hjzhdt/index_2.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 21:48:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hjbh/hjzhdt/index_3.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 21:48:49 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/hjbh/hjzhdt/index_4.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-13 23:03:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://hzs.ndrc.gov.cn/newfzxhjj/xfxd/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 00:02:12 [scrapy.core.scraper] ERROR: Spider error processing <GET http://qhs.ndrc.gov.cn/qjfzjz/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 35, in parse
+    item["uptime"] = uptime_list[i]
+IndexError: list index out of range
+2017-06-14 00:02:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://qhs.ndrc.gov.cn/qjfzjz/index_9.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 35, in parse
+    item["uptime"] = uptime_list[i]
+IndexError: list index out of range
+2017-06-14 00:02:23 [scrapy.core.scraper] ERROR: Spider error processing <GET http://qhs.ndrc.gov.cn/qjfzjz/index_10.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 35, in parse
+    item["uptime"] = uptime_list[i]
+IndexError: list index out of range
+2017-06-14 00:16:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://qhs.ndrc.gov.cn/qjfzjz/index_22.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 35, in parse
+    item["uptime"] = uptime_list[i]
+IndexError: list index out of range
+2017-06-14 02:44:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/jggl/zhdt/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 02:44:28 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/jggl/zhdt/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 04:00:32 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/jgjdyfld/jjszhdt/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 04:23:24 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/flfg/gzdtn/index_1.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 04:23:32 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/flfg/gzdtn/index_4.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-14 04:23:34 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.ndrc.gov.cn/fzgggz/flfg/gzdtn/index_5.html> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\Mycode\FagaiweiSpider\FagaiweiSpider\spiders\fagaiwei_fabu.py", line 48, in parse
+    file_path = re.search(r"/[A-Z].*", sun_url).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+2017-06-22 14:13:39 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 54, in parse
+    item["title"] = title_list[i].xpth("//a/text()")#测试
+AttributeError: 'unicode' object has no attribute 'xpth'
+2017-06-22 14:18:53 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/> (referer: None)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 54, in parse
+    item["title"] = title_list[i].xpth("//a/text()")#测试
+AttributeError: 'Selector' object has no attribute 'xpth'
+2017-06-22 15:48:06 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170620_1510713.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 15:52:01 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201705/t20170523_1508459.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:08 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201705/t20170523_1508459.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:13 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170615_1510439.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:17 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170619_1510645.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:22 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170620_1510713.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170620_1510714.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer
+2017-06-22 16:04:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mlr.gov.cn/zwgk/zytz/201706/t20170609_1509988.htm> (referer: http://www.mlr.gov.cn/zwgk/zytz/)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\guotu_qita.py", line 133, in next_parse
+    url_list = list(set(re.findall('<a\shref="([^"]*)"', html)))
+  File "D:\SoftWare\python2.7\lib\re.py", line 181, in findall
+    return _compile(pattern, flags).findall(string)
+TypeError: expected string or buffer

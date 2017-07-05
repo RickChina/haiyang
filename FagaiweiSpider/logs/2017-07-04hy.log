@@ -1,0 +1,696 @@
+2017-07-04 15:22:20 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 15:22:20 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 15:22:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 15:22:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 15:22:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 15:22:23 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 15:22:23 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 15:22:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 15:22:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 15:22:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 7, 22, 23, 655000),
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2017, 7, 4, 7, 22, 23, 648000)}
+2017-07-04 15:22:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 15:36:44 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 15:36:44 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 15:36:45 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 15:36:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 15:36:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 15:36:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 15:36:45 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 15:36:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 15:36:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 15:36:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 7, 36, 45, 951000),
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2017, 7, 4, 7, 36, 45, 944000)}
+2017-07-04 15:36:45 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 15:49:45 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 15:49:45 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 15:49:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 15:49:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 15:49:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 15:49:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 15:49:47 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 15:49:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 15:49:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 15:49:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 7, 49, 47, 324000),
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2017, 7, 4, 7, 49, 47, 317000)}
+2017-07-04 15:49:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 15:52:51 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 15:52:51 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 15:53:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 15:53:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 15:53:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 15:53:32 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 15:53:32 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 15:53:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 15:53:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 15:53:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 7, 53, 35, 816000),
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2017, 7, 4, 7, 53, 32, 869000)}
+2017-07-04 15:53:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 15:55:03 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 15:55:03 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 15:55:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 15:55:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 15:55:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 15:55:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 15:55:10 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 15:55:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:02:11 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:02:11 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:02:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:02:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:02:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:02:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:02:12 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:02:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:02:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 16:02:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 8, 2, 12, 833000),
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2017, 7, 4, 8, 2, 12, 825000)}
+2017-07-04 16:02:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 16:07:57 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:07:57 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:07:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:07:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:07:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:07:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:07:59 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:07:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:08:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 16:08:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 719,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 75154,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 8, 8, 18, 227000),
+ 'log_count/INFO': 7,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2017, 7, 4, 8, 7, 59, 285000)}
+2017-07-04 16:08:18 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 16:14:43 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:14:43 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:14:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:14:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:14:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:14:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:14:44 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:14:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:15:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 16:15:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 719,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 75154,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 8, 15, 17, 500000),
+ 'log_count/INFO': 7,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2017, 7, 4, 8, 14, 44, 435000)}
+2017-07-04 16:15:17 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 16:16:24 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:16:24 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:16:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:16:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:16:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:16:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:16:24 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:16:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:39:45 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:39:45 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:39:45 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:39:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:39:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:39:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:39:46 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:39:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:41:08 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:42:16 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:43:12 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:50:14 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 16:50:14 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 16:50:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 16:50:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 16:50:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 16:50:15 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 16:50:15 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 16:50:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:51:42 [scrapy.extensions.logstats] INFO: Crawled 3 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 16:52:16 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 6 pages/min), scraped 4 items (at 4 items/min)
+2017-07-04 16:53:17 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 11 pages/min), scraped 14 items (at 10 items/min)
+2017-07-04 16:53:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 16:53:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 11886,
+ 'downloader/request_count': 38,
+ 'downloader/request_method_count/GET': 38,
+ 'downloader/response_bytes': 1853367,
+ 'downloader/response_count': 38,
+ 'downloader/response_status_count/200': 38,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 8, 53, 59, 762000),
+ 'item_scraped_count': 35,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 38,
+ 'scheduler/dequeued': 38,
+ 'scheduler/dequeued/memory': 38,
+ 'scheduler/enqueued': 38,
+ 'scheduler/enqueued/memory': 38,
+ 'start_time': datetime.datetime(2017, 7, 4, 8, 50, 15, 494000)}
+2017-07-04 16:53:59 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-07-04 17:53:41 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 17:53:41 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 17:53:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 17:53:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 17:53:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 17:53:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 17:53:42 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 17:53:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 17:53:50 [scrapy.core.scraper] WARNING: Dropped: Duplicate item found: http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf
+{'attachment0': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'content': '',
+ 'content_text': '',
+ 'crawl_time': '2017-07-04 17:53:49',
+ 'f_file': u'index/images/mwr/P020140901551566565943.pdf',
+ 'myproject': '\xe6\xb0\xb4\xe5\x88\xa9\xe9\x83\xa8',
+ 'num': 1,
+ 'pdf_name0': u'P020140901551566565943.pdf',
+ 'source': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'title': u'\u6c34\u5229\u90e8\u5173\u4e8e\u5e9f\u6b62\u548c\u4fee\u6539\u90e8\u5206\u89c4\u7ae0\u7684\u51b3\u5b9a',
+ 'uptime': u'2014-09-01'}
+2017-07-04 17:55:24 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 17:55:24 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 17:55:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 17:55:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 17:55:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 17:55:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 17:55:24 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 17:55:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 17:55:31 [scrapy.core.scraper] WARNING: Dropped: Duplicate item found: http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf
+{'attachment0': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'content': '',
+ 'content_text': '',
+ 'crawl_time': '2017-07-04 17:55:30',
+ 'f_file': u'index/images/mwr/P020140901551566565943.pdf',
+ 'myproject': '\xe6\xb0\xb4\xe5\x88\xa9\xe9\x83\xa8',
+ 'num': 1,
+ 'pdf_name0': u'P020140901551566565943.pdf',
+ 'source': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'title': u'\u6c34\u5229\u90e8\u5173\u4e8e\u5e9f\u6b62\u548c\u4fee\u6539\u90e8\u5206\u89c4\u7ae0\u7684\u51b3\u5b9a',
+ 'uptime': u'2014-09-01'}
+2017-07-04 17:56:51 [scrapy.extensions.logstats] INFO: Crawled 26 pages (at 26 pages/min), scraped 1 items (at 1 items/min)
+2017-07-04 17:57:24 [scrapy.extensions.logstats] INFO: Crawled 41 pages (at 15 pages/min), scraped 1 items (at 0 items/min)
+2017-07-04 17:58:24 [scrapy.extensions.logstats] INFO: Crawled 73 pages (at 32 pages/min), scraped 3 items (at 2 items/min)
+2017-07-04 17:59:24 [scrapy.extensions.logstats] INFO: Crawled 104 pages (at 31 pages/min), scraped 4 items (at 1 items/min)
+2017-07-04 18:00:24 [scrapy.extensions.logstats] INFO: Crawled 136 pages (at 32 pages/min), scraped 5 items (at 1 items/min)
+2017-07-04 18:01:15 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: FagaiweiSpider)
+2017-07-04 18:01:15 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'FagaiweiSpider.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['FagaiweiSpider.spiders'], 'BOT_NAME': 'FagaiweiSpider', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\\\2017-07-04hy.log', 'DOWNLOAD_DELAY': 1.5}
+2017-07-04 18:01:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-07-04 18:01:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'FagaiweiSpider.middlewares.IngoreRequestMiddleware',
+ 'FagaiweiSpider.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-04 18:01:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-04 18:01:16 [scrapy.middleware] INFO: Enabled item pipelines:
+['FagaiweiSpider.pipelines.InsertRideis',
+ 'FagaiweiSpider.pipelines.InsertPDFpath',
+ 'FagaiweiSpider.pipelines.FagaiweispiderPipeline']
+2017-07-04 18:01:16 [scrapy.core.engine] INFO: Spider opened
+2017-07-04 18:01:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-04 18:01:30 [scrapy.core.scraper] WARNING: Dropped: Duplicate item found: http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf
+{'attachment0': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'content': '',
+ 'content_text': '',
+ 'crawl_time': '2017-07-04 18:01:29',
+ 'f_file': u'index/images/mwr/P020140901551566565943.pdf',
+ 'myproject': '\xe6\xb0\xb4\xe5\x88\xa9\xe9\x83\xa8',
+ 'num': 1,
+ 'pdf_name0': u'P020140901551566565943.pdf',
+ 'source': u'http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/201409/P020140901551566565943.pdf',
+ 'title': u'\u6c34\u5229\u90e8\u5173\u4e8e\u5e9f\u6b62\u548c\u4fee\u6539\u90e8\u5206\u89c4\u7ae0\u7684\u51b3\u5b9a',
+ 'uptime': u'2014-09-01'}
+2017-07-04 18:02:16 [scrapy.extensions.logstats] INFO: Crawled 30 pages (at 30 pages/min), scraped 1 items (at 1 items/min)
+2017-07-04 18:03:16 [scrapy.extensions.logstats] INFO: Crawled 62 pages (at 32 pages/min), scraped 1 items (at 0 items/min)
+2017-07-04 18:04:16 [scrapy.extensions.logstats] INFO: Crawled 93 pages (at 31 pages/min), scraped 1 items (at 0 items/min)
+2017-07-04 18:05:16 [scrapy.extensions.logstats] INFO: Crawled 127 pages (at 34 pages/min), scraped 1 items (at 0 items/min)
+2017-07-04 18:06:16 [scrapy.extensions.logstats] INFO: Crawled 159 pages (at 32 pages/min), scraped 4 items (at 3 items/min)
+2017-07-04 18:07:16 [scrapy.extensions.logstats] INFO: Crawled 190 pages (at 31 pages/min), scraped 7 items (at 3 items/min)
+2017-07-04 18:08:18 [scrapy.extensions.logstats] INFO: Crawled 220 pages (at 30 pages/min), scraped 9 items (at 2 items/min)
+2017-07-04 18:09:16 [scrapy.extensions.logstats] INFO: Crawled 250 pages (at 30 pages/min), scraped 23 items (at 14 items/min)
+2017-07-04 18:10:16 [scrapy.extensions.logstats] INFO: Crawled 282 pages (at 32 pages/min), scraped 24 items (at 1 items/min)
+2017-07-04 18:11:16 [scrapy.extensions.logstats] INFO: Crawled 314 pages (at 32 pages/min), scraped 24 items (at 0 items/min)
+2017-07-04 18:12:16 [scrapy.extensions.logstats] INFO: Crawled 346 pages (at 32 pages/min), scraped 24 items (at 0 items/min)
+2017-07-04 18:13:16 [scrapy.extensions.logstats] INFO: Crawled 377 pages (at 31 pages/min), scraped 29 items (at 5 items/min)
+2017-07-04 18:14:16 [scrapy.extensions.logstats] INFO: Crawled 410 pages (at 33 pages/min), scraped 32 items (at 3 items/min)
+2017-07-04 18:15:16 [scrapy.extensions.logstats] INFO: Crawled 441 pages (at 31 pages/min), scraped 33 items (at 1 items/min)
+2017-07-04 18:16:16 [scrapy.extensions.logstats] INFO: Crawled 474 pages (at 33 pages/min), scraped 35 items (at 2 items/min)
+2017-07-04 18:17:16 [scrapy.extensions.logstats] INFO: Crawled 507 pages (at 33 pages/min), scraped 35 items (at 0 items/min)
+2017-07-04 18:18:16 [scrapy.extensions.logstats] INFO: Crawled 536 pages (at 29 pages/min), scraped 41 items (at 6 items/min)
+2017-07-04 18:18:39 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.mwr.gov.cn> (referer: http://www.mwr.gov.cn/zwzc/zcfg/bmfggfxwj/index_1.html)
+Traceback (most recent call last):
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\SoftWare\python2.7\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:/Mycode/FagaiweiSpider\FagaiweiSpider\spiders\shuilibu.py", line 157, in next_parse
+    content = response.xpath("//div[@id='maincontent']|//div[@id='maintablecontent']").extract()[0]
+IndexError: list index out of range
+2017-07-04 18:19:16 [scrapy.extensions.logstats] INFO: Crawled 569 pages (at 33 pages/min), scraped 41 items (at 0 items/min)
+2017-07-04 18:20:16 [scrapy.extensions.logstats] INFO: Crawled 600 pages (at 31 pages/min), scraped 46 items (at 5 items/min)
+2017-07-04 18:21:16 [scrapy.extensions.logstats] INFO: Crawled 631 pages (at 31 pages/min), scraped 47 items (at 1 items/min)
+2017-07-04 18:22:16 [scrapy.extensions.logstats] INFO: Crawled 662 pages (at 31 pages/min), scraped 50 items (at 3 items/min)
+2017-07-04 18:23:16 [scrapy.extensions.logstats] INFO: Crawled 695 pages (at 33 pages/min), scraped 50 items (at 0 items/min)
+2017-07-04 18:24:16 [scrapy.extensions.logstats] INFO: Crawled 727 pages (at 32 pages/min), scraped 52 items (at 2 items/min)
+2017-07-04 18:25:16 [scrapy.extensions.logstats] INFO: Crawled 756 pages (at 29 pages/min), scraped 54 items (at 2 items/min)
+2017-07-04 18:26:16 [scrapy.extensions.logstats] INFO: Crawled 789 pages (at 33 pages/min), scraped 59 items (at 5 items/min)
+2017-07-04 18:27:16 [scrapy.extensions.logstats] INFO: Crawled 821 pages (at 32 pages/min), scraped 60 items (at 1 items/min)
+2017-07-04 18:28:16 [scrapy.extensions.logstats] INFO: Crawled 852 pages (at 31 pages/min), scraped 61 items (at 1 items/min)
+2017-07-04 18:29:16 [scrapy.extensions.logstats] INFO: Crawled 883 pages (at 31 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:30:16 [scrapy.extensions.logstats] INFO: Crawled 915 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:31:16 [scrapy.extensions.logstats] INFO: Crawled 947 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:32:16 [scrapy.extensions.logstats] INFO: Crawled 979 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:33:16 [scrapy.extensions.logstats] INFO: Crawled 1011 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:34:16 [scrapy.extensions.logstats] INFO: Crawled 1043 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:35:16 [scrapy.extensions.logstats] INFO: Crawled 1075 pages (at 32 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:36:16 [scrapy.extensions.logstats] INFO: Crawled 1106 pages (at 31 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:37:16 [scrapy.extensions.logstats] INFO: Crawled 1139 pages (at 33 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:38:16 [scrapy.extensions.logstats] INFO: Crawled 1172 pages (at 33 pages/min), scraped 61 items (at 0 items/min)
+2017-07-04 18:39:16 [scrapy.extensions.logstats] INFO: Crawled 1202 pages (at 30 pages/min), scraped 62 items (at 1 items/min)
+2017-07-04 18:40:16 [scrapy.extensions.logstats] INFO: Crawled 1233 pages (at 31 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:41:16 [scrapy.extensions.logstats] INFO: Crawled 1266 pages (at 33 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:42:16 [scrapy.extensions.logstats] INFO: Crawled 1296 pages (at 30 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:43:16 [scrapy.extensions.logstats] INFO: Crawled 1328 pages (at 32 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:44:16 [scrapy.extensions.logstats] INFO: Crawled 1361 pages (at 33 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:45:16 [scrapy.extensions.logstats] INFO: Crawled 1392 pages (at 31 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:46:16 [scrapy.extensions.logstats] INFO: Crawled 1426 pages (at 34 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:47:16 [scrapy.extensions.logstats] INFO: Crawled 1457 pages (at 31 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:48:16 [scrapy.extensions.logstats] INFO: Crawled 1487 pages (at 30 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:49:16 [scrapy.extensions.logstats] INFO: Crawled 1518 pages (at 31 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:50:16 [scrapy.extensions.logstats] INFO: Crawled 1552 pages (at 34 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:51:16 [scrapy.extensions.logstats] INFO: Crawled 1586 pages (at 34 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:52:16 [scrapy.extensions.logstats] INFO: Crawled 1619 pages (at 33 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:53:16 [scrapy.extensions.logstats] INFO: Crawled 1651 pages (at 32 pages/min), scraped 62 items (at 0 items/min)
+2017-07-04 18:54:16 [scrapy.extensions.logstats] INFO: Crawled 1683 pages (at 32 pages/min), scraped 65 items (at 3 items/min)
+2017-07-04 18:55:17 [scrapy.extensions.logstats] INFO: Crawled 1714 pages (at 31 pages/min), scraped 73 items (at 8 items/min)
+2017-07-04 18:56:16 [scrapy.extensions.logstats] INFO: Crawled 1745 pages (at 31 pages/min), scraped 85 items (at 12 items/min)
+2017-07-04 18:57:16 [scrapy.extensions.logstats] INFO: Crawled 1776 pages (at 31 pages/min), scraped 94 items (at 9 items/min)
+2017-07-04 18:58:16 [scrapy.extensions.logstats] INFO: Crawled 1808 pages (at 32 pages/min), scraped 103 items (at 9 items/min)
+2017-07-04 18:59:16 [scrapy.extensions.logstats] INFO: Crawled 1841 pages (at 33 pages/min), scraped 103 items (at 0 items/min)
+2017-07-04 19:00:16 [scrapy.extensions.logstats] INFO: Crawled 1873 pages (at 32 pages/min), scraped 103 items (at 0 items/min)
+2017-07-04 19:01:16 [scrapy.extensions.logstats] INFO: Crawled 1904 pages (at 31 pages/min), scraped 103 items (at 0 items/min)
+2017-07-04 19:02:16 [scrapy.extensions.logstats] INFO: Crawled 1936 pages (at 32 pages/min), scraped 103 items (at 0 items/min)
+2017-07-04 19:03:16 [scrapy.extensions.logstats] INFO: Crawled 1970 pages (at 34 pages/min), scraped 103 items (at 0 items/min)
+2017-07-04 19:04:17 [scrapy.extensions.logstats] INFO: Crawled 2001 pages (at 31 pages/min), scraped 105 items (at 2 items/min)
+2017-07-04 19:05:16 [scrapy.extensions.logstats] INFO: Crawled 2024 pages (at 23 pages/min), scraped 132 items (at 27 items/min)
+2017-07-04 19:06:16 [scrapy.extensions.logstats] INFO: Crawled 2055 pages (at 31 pages/min), scraped 144 items (at 12 items/min)
+2017-07-04 19:07:17 [scrapy.extensions.logstats] INFO: Crawled 2083 pages (at 28 pages/min), scraped 164 items (at 20 items/min)
+2017-07-04 19:08:16 [scrapy.extensions.logstats] INFO: Crawled 2116 pages (at 33 pages/min), scraped 169 items (at 5 items/min)
+2017-07-04 19:09:16 [scrapy.extensions.logstats] INFO: Crawled 2149 pages (at 33 pages/min), scraped 169 items (at 0 items/min)
+2017-07-04 19:10:16 [scrapy.extensions.logstats] INFO: Crawled 2180 pages (at 31 pages/min), scraped 169 items (at 0 items/min)
+2017-07-04 19:11:16 [scrapy.extensions.logstats] INFO: Crawled 2212 pages (at 32 pages/min), scraped 169 items (at 0 items/min)
+2017-07-04 19:12:16 [scrapy.extensions.logstats] INFO: Crawled 2243 pages (at 31 pages/min), scraped 169 items (at 0 items/min)
+2017-07-04 19:13:16 [scrapy.extensions.logstats] INFO: Crawled 2277 pages (at 34 pages/min), scraped 169 items (at 0 items/min)
+2017-07-04 19:14:17 [scrapy.extensions.logstats] INFO: Crawled 2306 pages (at 29 pages/min), scraped 174 items (at 5 items/min)
+2017-07-04 19:15:28 [scrapy.extensions.logstats] INFO: Crawled 2315 pages (at 9 pages/min), scraped 207 items (at 33 items/min)
+2017-07-04 19:16:30 [scrapy.extensions.logstats] INFO: Crawled 2320 pages (at 5 pages/min), scraped 237 items (at 30 items/min)
+2017-07-04 19:17:29 [scrapy.extensions.logstats] INFO: Crawled 2323 pages (at 3 pages/min), scraped 268 items (at 31 items/min)
+2017-07-04 19:18:27 [scrapy.extensions.logstats] INFO: Crawled 2327 pages (at 4 pages/min), scraped 295 items (at 27 items/min)
+2017-07-04 19:19:26 [scrapy.extensions.logstats] INFO: Crawled 2333 pages (at 6 pages/min), scraped 327 items (at 32 items/min)
+2017-07-04 19:20:16 [scrapy.extensions.logstats] INFO: Crawled 2348 pages (at 15 pages/min), scraped 349 items (at 22 items/min)
+2017-07-04 19:21:17 [scrapy.extensions.logstats] INFO: Crawled 2376 pages (at 28 pages/min), scraped 367 items (at 18 items/min)
+2017-07-04 19:22:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-07-04 19:22:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 5,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 5,
+ 'downloader/request_bytes': 759418,
+ 'downloader/request_count': 2435,
+ 'downloader/request_method_count/GET': 2435,
+ 'downloader/response_bytes': 70112647,
+ 'downloader/response_count': 2435,
+ 'downloader/response_status_count/200': 2403,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/503': 31,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 7, 4, 11, 22, 14, 461000),
+ 'item_dropped_count': 1,
+ 'item_dropped_reasons_count/DropItem': 1,
+ 'item_scraped_count': 393,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 87,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 2402,
+ 'scheduler/dequeued': 2440,
+ 'scheduler/dequeued/memory': 2440,
+ 'scheduler/enqueued': 2440,
+ 'scheduler/enqueued/memory': 2440,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2017, 7, 4, 10, 1, 16, 543000)}
+2017-07-04 19:22:14 [scrapy.core.engine] INFO: Spider closed (finished)
