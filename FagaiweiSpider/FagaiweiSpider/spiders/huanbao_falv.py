@@ -298,8 +298,8 @@ class HuanbaofalvSpider(scrapy.Spider):
                         yield scrapy.Request(url=item["source"], callback=self.next_parse, meta={"item": item})
                     else:
                         item["num"] = 1
-                        item["attachment0"] = new_sun_url
-                        item['source'] = new_sun_url
+                        item["attachment0"] = sun_url
+                        item['source'] = sun_url
                         file_path = sun_url.split("/")[-1]
                         item["f_file"] = "index/images/" + "zhb" + "/" + file_path
                         item["pdf_name0"] = file_path
